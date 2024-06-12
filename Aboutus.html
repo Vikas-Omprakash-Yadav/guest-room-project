@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awaas An Ecotel Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="Form.html">Book Your Room</a></li>
+                <li><a href="attraction.html">Attractions</a></li>
+            </ul>
+            <img src="images/Logo.png" class="logo">
+        </div>
+    </nav>
+
+<video autoplay muted loop id="myVideo">
+  <source src="images/video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>About Awaas Hotels</h1>
+  <p>A 5 star environmentally responsible hotel with 46 awards to its credit, Awaas An Ecotel Hotel, in Mumbai is the world’s only hotel to have an ecotel certification and a LEED Gold rating. this 5-star hotel with 141 rooms and suites and was named in honour of the legendary Indus Valley Civilisation. With easy access to main transit options, and within a 10 kms radius of the NESCO convention centre in business areas and a 6 kms radius from IIT campus, Awaas, is the ideal business hotel for the discerning traveller. Local attractions: Gateway of India, Juhu Beach, Isckon Temple, Elephanta Caves, Marine Drive, Film City, Hakone.Awaas Hotels, is an Indian hospitality chain of leased and franchised hotels, homes and living spaces.Founded in 2024 by Vikas, awaas initially consisted mainly of budget hotels. The startup expanded globally with thousands of hotels, vacation homes and millions of rooms in India, Malaysia, UAE, Nepal, Brazil, Mexico, UK, Japan, United States and more.</p>
+                <a href="Form.html" class="btn btn-subscribe"> Book Room </a>
+                <a href="index.html" class="btn btn-comment"> Return to Home</a>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>

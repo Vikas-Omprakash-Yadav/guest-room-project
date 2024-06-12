@@ -1,0 +1,376 @@
+*,
+*::after,
+*::before,
+*::section.about{
+    	box-sizing: border-box;
+    	padding: 0;
+    	margin: 0;
+	}
+    .html{
+    	font-size: 62.5%;
+	}
+    .navbar input[type="checkbox"],
+    .navbar .hamburger-lines{
+    	display: none;
+	}
+    .logo{
+        height: 50px;
+        width: auto;
+        margin-top: 0px;
+    	}
+    .container{
+    	max-width: 1200px;
+    	width: 90%;
+    	margin: auto;
+	}
+    .navbar{
+    	box-shadow: 0px 5px 10px 0px #aaa;
+    	position: fixed;
+    	width: 100%;
+    	background: #fff;
+    	color: #000;
+    	opacity: 100%;
+    	z-index: 100;
+	}
+    .navbar-container{
+    	display: flex;
+    	justify-content: space-between;
+    	height: 64px;
+    	align-items: center;
+	}
+    .menu-items{
+    	order: 2;
+    	display: flex;
+	}
+    .logo{
+    	order: 1;
+    	font-size: 2.3rem;
+	}
+    .menu-items li{
+    	list-style: none;
+    	margin-left: 1.5rem;
+    	font-size: 1.3rem;
+	}
+    .navbar a{
+    	color: #444;
+    	text-decoration: none;
+    	font-weight: 500;
+    	transition: color 0.3s ease-in-out;
+	}
+    .navbar a:hover{
+    	color: #117964;
+	}
+    .slider{
+    	width: 1300px;
+    	max-width: 100vw;
+    	height: 600px;
+    	margin: auto;
+    	position: relative;
+    	overflow: hidden;
+	}
+    .slider .list{
+    	position: absolute;
+    	width: max-content;
+    	height: 100%;
+    	left: 0;
+    	top:  0;
+    	display: flex;
+    	transition: 1s;
+	}
+    .slider .list img{
+    	margin-top: 65px;
+    	width: 1300px;
+    	max-width: 100vw;
+    	height: 100%;
+    	object-fit: cover;
+	}
+    .slider .dots{
+    	position: absolute;
+    	bottom: 50px;
+    	left: 0;
+    	color: #fff;
+    	width: 100%;
+    	margin: 0;
+    	padding: 0;
+    	display: flex;
+    	justify-content: center;
+	}
+     .slider .dots li{
+    	list-style: none;
+    	width: 10px;
+    	height: 10px;
+    	background-color: #fff;
+    	margin: 10px;
+    	border-radius: 20px;
+    	transition: 0.5s;
+	}
+      .slider .dots li.active{
+    	width: 30px;
+	}
+     .about{
+        height: 186vh; /* height of website */
+        display: flex;
+    	}
+     .about-title{
+        width: 50%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin: 0!important;
+    	}
+     .about-pages{	
+        width: 43.50%;
+    	}
+     .about-pages .section-1,
+     .about-pages .section-2{
+        height: 117vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: Black;
+    	}
+     .about-pages div p{
+        width: 90%;
+        font-size: 15px;
+        line-height: 20px;
+	text-align: center;
+    	}
+     .about-pages .section-1{
+        background-color: rgb(56, 134, 89);
+	height: auto;
+    	}
+     .about-pages .section-2{
+        background-color: rgb(129, 42, 110);
+	height: auto;
+    	}
+     .toproom{
+        margin: 0 auto;
+        position: relative;
+        width: 90%;
+        height: 40%;
+        border: 10px solid white;
+    	}
+     .slideshow-toproom {
+    	max-width: 100vw;
+  	position: relative;
+  	margin: auto;
+	}
+     .mySlides1, .mySlides2 {display: block}
+	img {vertical-align: middle;}
+     .prev, .next {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	width: auto;
+  	padding: 16px;
+  	margin-top: -22px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 18px;
+  	transition: 0.6s ease;
+  	border-radius: 0 3px 3px 0;
+  	user-select: none;
+	}
+     .next {
+  	right: 0;
+  	border-radius: 3px 0 0 3px;
+	}
+     .prev:hover, .next:hover {
+  	background-color: #f1f1f1;
+  	color: black;
+	}
+     .feedback{
+      	background-color: #A9A9A9;
+      	color: white;
+      	position: absolute;
+      	left: 50px;
+      	padding: 1px;
+      	padding-right: 30px;
+      	border: 2px solid white;
+      	border-radius: 300px;
+      	display: inline-block;
+      	text-decoration: none;
+      	padding-left: 80px;
+	width:12%;
+	}
+     .feedback:hover{
+      	background-color: #303036;
+  	}  
+     .footer {
+    	background-color: #333;
+    	color: white;
+    	padding: 0px;
+    	display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    	position: fixed; 
+    	left: 0;
+    	bottom: 0;
+        width: 100%;
+  	}
+     .footerlogo{
+	font-family: "Sofia", sans-serif;
+	color: #17b293;
+	}
+     .footer div {
+    	flex: 1;
+    	padding: 0px;
+    	min-width: 1px;
+  	}
+     .footer h3 {
+    	margin-bottom: 1px;
+  	}
+     .footer a {
+    	color: #4CAF50;
+    	text-decoration: none;
+  	}
+     .footer a:hover {
+    	text-decoration: underline;
+  	}
+@media (max-width: 768px){
+    .navbar{
+        opacity: 0.95;
+    	}
+    .navbar-container input[type="checkbox"],
+    .navbar-container .hamburger-lines{
+        display: block;
+    	}
+    	.navbar-container{
+        display: block;
+        position: relative;
+        height: 64px;
+    	}
+     .navbar-container input[type="checkbox"]{
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    	}
+    .navbar-container .hamburger-lines{
+        display: block;
+        height: 28px;
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    	}
+    .navbar-container .hamburger-lines .line{
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333;
+    	}
+    .navbar-container .hamburger-lines .line1{
+        transform-origin: 0% 0%;
+        transition: transform 0.3s ease-in-out;
+    	}
+    .navbar-container .hamburger-lines .line2{
+        transition: transform 0.2s ease-in-out;
+    	}
+    .navbar-container .hamburger-lines .line3{
+        transform-origin: 0% 100%;
+        transition: transform 0.3s ease-in-out;
+    	}
+     .navbar .menu-items{
+        padding-top: 100px;
+        background: #fff;
+        height: 100vh;
+        max-width: 300px;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 40px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow:  5px 0px 10px 0px #aaa;
+        overflow: scroll;
+    	}
+    .navbar .menu-items li{
+        margin-bottom: 1.8rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    	}
+    .logo{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 2.5rem;
+    	}
+    .navbar-container input[type="checkbox"]:checked ~ .menu-items{
+        transform: translateX(0);
+    	}
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+        transform: rotate(45deg);
+    	}
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+        transform: scaleY(0);
+    	}
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+        transform: rotate(-45deg);
+    	}
+    .navbar-container input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    	}
+    .about {
+        height: 169vh;
+	}
+    .footer {
+      	flex-direction: column;
+      	text-align: center;
+    	font-size: 9px;
+    	}
+    .footer div {
+    	margin-bottom: 0px;
+    	}
+  }
+  @media screen and (max-width: 500px){
+     .feedback {
+    	left: 0px;
+    	padding: 5px;
+    	padding-right: 2px;
+    	padding-left: 2px;
+    	width: 25%;
+    	}
+     .about-pages {
+    	width: 100.50%;
+    	}
+     .about
+    	{
+        height: 186vh; /* height of website */
+        display: flex;
+    	}
+     .slider{
+        height: 300px;
+    	}
+     .slider .dots{
+    	bottom: 10px;
+    	}
+     .about-title{
+	max-width: 0%;
+	visibility: hidden;
+	clear: both;
+	}
+     .about-pages .section-1,
+    	.about-pages .section-2{
+        width: 319px;
+    	}
+     .about-pages div p{
+        text-align: justify;
+        width: 90%;
+        font-size: 12px;
+        line-height: 14px;
+    	}
+} 
