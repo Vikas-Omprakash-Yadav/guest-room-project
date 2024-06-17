@@ -349,7 +349,7 @@
     	}
      .about
     	{
-        height: 170vh; /* height of website */
+        height: 150vh; /* height of website */
         display: flex;
     	}
      .slider{
