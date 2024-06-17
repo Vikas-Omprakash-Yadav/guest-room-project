@@ -345,16 +345,15 @@
     	width: 25%;
     	}
      .about-pages {
-    	width: -webkit-fill-available;
+    	width: 100.50%;
     	}
      .about
     	{
-        height: 118vh; /* height of website */
+        height: 186vh; /* height of website */
         display: flex;
     	}
      .slider{
         height: 300px;
-	width: -webkit-fill-available;
     	}
      .slider .dots{
     	bottom: 10px;
